@@ -2,11 +2,11 @@
   "domain": "liga_chile",
   "name": "Liga de Fútbol Chileno",
   "version": "1.0.0",
-  "documentation": "https://github.com/TU_USUARIO/liga_chile",
-  "issue_tracker": "https://github.com/TU_USUARIO/liga_chile/issues",
+  "documentation": "https://github.com/bcotoras/liga_chile",
+  "issue_tracker": "https://github.com/bcotoras/liga_chile/issues",
   "requirements": [],
   "dependencies": [],
-  "codeowners": ["@TU_USUARIO"],
+  "codeowners": ["@bcotoras"],
   "iot_class": "cloud_polling",
   "config_flow": true
 }
