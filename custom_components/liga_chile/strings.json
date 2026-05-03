@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Liga de Fútbol Chileno",
+        "description": "Ingresa tu clave API de api-football.com para obtener datos de la Primera A y Primera B del fútbol chileno.",
+        "data": {
+          "api_key": "Clave API de api-football.com",
+          "season": "Temporada (año)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Clave API inválida",
+      "cannot_connect": "No se pudo conectar con la API",
+      "unknown": "Error inesperado"
+    },
+    "abort": {
+      "already_configured": "La integración ya está configurada"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opciones — Liga de Fútbol Chileno",
+        "data": {
+          "scan_interval": "Intervalo de actualización (minutos)"
+        },
+        "data_description": {
+          "scan_interval": "Mínimo 30 min. El tier gratuito de api-football.com permite 100 req/día (4 llamadas por ciclo → mínimo 58 min recomendado)."
+        }
+      }
+    }
+  }
+}
